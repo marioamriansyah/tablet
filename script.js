@@ -128,6 +128,7 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('openDinogame').addEventListener('click', () => {
         iframe.src = 'https://precious-cassata-fda6b3.netlify.app/';
         container.style.display = 'block';
+        iframe.style.zoom = '80%';
     });
 
     // tombol buka, misal tombol dengan id "openTetris"
